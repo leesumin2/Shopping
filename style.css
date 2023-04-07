@@ -79,7 +79,7 @@ body {
 .itemBox {
   width: 60%;
   height: 60%;
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-margin-right: 100px;
 }
 
@@ -95,6 +95,11 @@ body {
   align-items: center;
   padding: var(--base-space);
   margin-bottom: var(--base-space);
+}
+
+.item.invisible {
+  background-color: white;
+  display: none;
 }
 
 .item__thumbnail {
